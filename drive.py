@@ -28,7 +28,7 @@ class driver():
             pass
 
     def listenForTarget(self):
-        self.target_subscriber = rospy.Subscriber('/target', Pose, updateTarget)
+        self.target_subscriber = rospy.Subscriber('/target', Pose, self.updateTarget)
 
 
     def updateTarget(msg):
