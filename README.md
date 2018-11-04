@@ -6,7 +6,7 @@ The project was developed during the MMKF15 course at LTH. This is a very simple
 2. 'catkin_make' in the catkin_ws folder. Make sure you have installed the HRP packages before.
 3. If you write 'rospack find husqvarna', the terminal should return the location of the installed package.
 4. Go to the husqvarna folder, should be catkin_ws/src/husqvarna.
-5. Run 'roslaunch husqvarna launch_drive.launch' and gazebo should start with an empty world, the husqvarna mower.
+5. Run 'roslaunch husqvarna launch_drive.launch' and gazebo should start with an empty world, and the husqvarna mower.
 
 ## Making the mower move
 1. Open a new terminal, go to catkin_ws
